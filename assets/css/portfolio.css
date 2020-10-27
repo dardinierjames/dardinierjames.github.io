@@ -1,0 +1,93 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    /* background-color: #333333; */
+}
+
+h1{
+    color: #333333;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 150px 100px 0px;
+/* 150px en haut 100px en bas
+0px à gauche et à droite */
+}
+.grille{
+    max-width: 1300px;
+/* la grille fera un max de 1300px */
+    width: 90%;
+/* en dessous des 1300px la grille prendra 90% de la largeur de la page */
+    height: auto;
+/* la grille s'adaptera en hauteur par rapport aux éléments qu'elle contient */
+    margin: 40px auto;
+/* 40px en haut et en bas et auto à gauche et à droite pour centrer */
+/* border: 1px solid #000000; non nécessaire*/
+    display: grid;
+/* création des lignes */
+    grid-template-columns: repeat(auto-fill, 300px);
+/* auto-fill création de colonnes autant que possible
+1300/300=4 colonnes max */
+    justify-content: center;
+/* permet de centrer les colonnes */
+row-gap: 10px;
+/* 10px entre les lignes */
+column-gap: 10px;
+/* 10px entre les colonnes */
+}
+
+.grid-item{
+    width: 300px;
+/* taille de la boite où de l'image */
+    height: 200px;
+/* background: #333333; juste pour imaginer la grille sans les img*/
+/* peut-être remplacé par une image */
+    border: 1px solid #333333;
+
+}
+
+.ligneRef{
+    /* text-decoration-line: none; */
+    color: #ffffff;
+}
+
+.ligneRef2{
+    /* text-decoration-line: none; */
+    color: #333333
+}
+
+.box1{
+    background-image: url(../img/Tour_perret.jpg);
+    background-size: 300px 200px;
+/* taille de l'image pour quelle soit de la taille de l'élément */
+    padding-left: 10px;
+    padding-top: 2px;
+    
+}
+.box2{
+    background-image: url(../img/Illustration1Copie.jpg);
+    background-size: 300px 200px;
+    padding-left: 170px;
+    padding-top: 2px;
+
+}
+
+.box3{
+    background-image: url(../img/Acrylique1copie.jpg);
+    background-size: 300px 200px;
+    padding-left: 10px;
+    padding-top:  170px;
+
+}
+
+.box4{
+    background-image: url(../img/PhotoEnseigneBar1copie.jpg);
+    background-size: 300px 200px;
+    padding-left: 10px;
+    padding-top: 2px;
+}

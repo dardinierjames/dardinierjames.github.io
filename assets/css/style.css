@@ -1,0 +1,161 @@
+.navbar{
+    background: rgba(0,0,0,0.8);
+}
+
+.carousel-item{
+    height: 100vh;
+/* si vous voulez un élément à la hauteur de votre fenêtre, vous devrez le mettre à 100vh. */
+    min-height: 300px;
+/* La propriété min-height est utilisée afin de définir la hauteur minimale d'un élément. Elle empêche ainsi que la valeur de la propriété height devienne inférieure à min-height. */
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+.w-100{
+    height: 100vh;
+/* largeur de l'écran 100% */
+}
+
+.carousel-caption{
+    background: rgba(0,0,0,0.8);
+    bottom: 100px;
+    border-radius: 10px;
+}
+
+.carousel-caption h5{
+    font-size: 40px;
+    text-transform: uppercase;
+    /* uppercase transforme le texte en majuscule et lowercase en minuscule */
+    letter-spacing: 2px;
+    margin-bottom: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.carousel-caption p{
+    width: 80%;
+    margin: auto;
+    /* font-size: 25px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carousel-caption a{
+    text-transform: uppercase;
+    background: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: #ffffff;
+}
+
+.navbar-nav a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand{
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #ffffff;
+}
+
+.nav-link:hover{
+    background: #ffffff !important;
+    padding: 15px 10px;
+}
+.navbar-brand:hover{
+    background: #ffffff !important;
+    padding: 15px 10px;
+}
+
+/* .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    columns: #ffffff;
+} */
+
+.navbar-nav{
+     text-align: center;
+ }
+
+.nav-link{
+     padding: 2rem 1rem;
+ }
+.icones{
+    font-size: 40px;
+    margin-left: 5px;   
+}
+
+.progress{
+    height: 40px;
+    width: auto;
+    border: 1px solid;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.progress-bar{
+    background-color: #333333;
+}
+
+span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 65px;
+}
+
+.margint-250{
+    margin-top: 250px;
+}
+
+.backgroundTrans{
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+}
+
+
+
+
+@media(max-width: 480px){
+    .navbar-nav.ml-auto{
+        background: rgba(0,0,0,0.8);
+        border-radius: 10px;
+    /* fond noir translucide du menu burger activé */
+    }
+
+    .navbar-toggler{
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: #ffffff;
+/* aspect du menu burger */
+    }
+
+    .nav-link:hover{
+    display: none;
+    }
+    .navbar-brand:hover{
+    display: none;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        height: 25px;
+        width: 25px;
+    }
+
+
+}  
+
+
