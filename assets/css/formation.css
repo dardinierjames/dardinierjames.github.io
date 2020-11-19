@@ -1,0 +1,125 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+    
+.backgroundFormation{
+    background-image: url(../img/formation.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+h2{
+    color: rgb(172, 78, 172);
+    font-size: 15px;
+}
+
+.box-timeline{
+    width: 100%;
+    height: 1500px;
+    background: transparent;
+    position: relative;
+    padding: 80px 0 200 0;
+}
+
+.ligne{
+    height: 1250px;
+    width: 8px;
+    margin: 0 auto;
+    background: #f1f1f1;
+    box-shadow: 0px 15px 20px rgba(0,0,0, 0.9);
+}
+
+.circle{
+    color: #ffffff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #999999;
+    box-shadow: 0px 15px 20px rgba(0,0,0, 0.9);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px; 
+}
+
+.sizeLaManu{
+    font-size: 18px;
+}
+
+.c1{top: 0px;}
+.c2{top: 306px;}
+.c3{top: 612px;}
+.c4{top: 920px;}
+.c5{top: 1226px;}
+
+.box{
+    color: #ffffff;
+    width: 400px;
+    min-height: 200px;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    background: rgba(51,51, 51, 0.9);
+    box-shadow: 0px 15px 20px rgba(0,0,0, 0.9);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.b1{
+    top: 0px;
+    left: calc(50% - 270px);
+}
+.b2{
+    top: 306px;
+    left: calc(50% + 270px);
+}
+.b3{
+    top: 612px;
+    left: calc(50% - 270px);
+}
+.b4{
+    top: 920px;
+    left: calc(50% + 270px);
+}
+.b5{
+    top: 1226px;
+    left: calc(50% - 270px);
+}
+
+.box p{
+    line-height: 13px;
+    font-size: 12px;
+    margin: 10px 0 20px 0;
+}
+
+@media screen and (max-width: 1000px){
+    .ligne{
+        position: relative;
+        left: 150px;
+    }
+
+    .circle{
+        left: calc(50% + 150px);
+    }
+
+    .box{
+        width: 300px;
+        left: calc(50% - 50px);
+    }
+
+    .box p{
+        line-height: 11px;
+        font-size: 10px;
+    }
+}

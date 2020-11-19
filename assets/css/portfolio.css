@@ -6,7 +6,8 @@
 
 
 body{
-    /* background-color: #333333; */
+    background-image: url(../img/Pavet.jpg);
+    background-size: cover;
 }
 
 h1{
@@ -19,7 +20,7 @@ h1{
 0px à gauche et à droite */
 }
 .grille{
-    max-width: 1300px;
+    max-width: 1100px;
 /* la grille fera un max de 1300px */
     width: 90%;
 /* en dessous des 1300px la grille prendra 90% de la largeur de la page */
@@ -35,9 +36,9 @@ h1{
 1300/300=4 colonnes max */
     justify-content: center;
 /* permet de centrer les colonnes */
-row-gap: 10px;
+row-gap: 20px;
 /* 10px entre les lignes */
-column-gap: 10px;
+column-gap: 20px;
 /* 10px entre les colonnes */
 }
 
@@ -86,7 +87,63 @@ column-gap: 10px;
 }
 
 .box4{
+    background-image: url(../img/lénine.jpg);
+    background-size: 300px 200px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.box5{
+    background-image: url(../img/ciné.jpg);
+    background-size: 300px 200px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.box6{
     background-image: url(../img/PhotoEnseigneBar1copie.jpg);
+    background-size: 300px 200px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.box7{
+    background-image: url(../img/hendrix.jpg);
+    background-size: 300px 200px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.box8{
+    background-image: url(../img/mariage.jpg);
+    background-size: 300px 200px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.box9{
+    background-image: url(../img/graf1.jpg);
+    background-size: 300px 200px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.box10{
+    background-image: url(../img/festoche2.jpg);
+    background-size: 300px 200px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.box11{
+    background-image: url(../img/mandela.jpg);
+    background-size: 300px 200px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.box12{
+    background-image: url(../img/peintNum.jpg);
     background-size: 300px 200px;
     padding-left: 10px;
     padding-top: 2px;
